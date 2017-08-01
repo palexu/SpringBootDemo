@@ -3,6 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>hello</module>
+        <module>sayHello</module>
+    </modules>
 
     <!--添加了springboot的依赖后，当前的项目就是spring boot项目了;也可以依赖spring-boot提供的依赖-->
     <parent>
